@@ -20,8 +20,8 @@ do
   if curl -i --connect-timeout 30 -m 120 --proto =http,https -L -k -A "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0" "$url" | grep -o -i -f "$footprintsinput"
   then
     echo ""$url",true" >> $output
-    else
-  echo ""$url",false" >> $output
+  else
+    echo ""$url",false" >> $output
   fi
 done
 
