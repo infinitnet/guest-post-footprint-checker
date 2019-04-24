@@ -16,7 +16,7 @@ Just Bash and cURL.
 2. Add the URLs or domains you want to check to `urls.txt` (one per line)
 3. Customize footprints you want to check for by editing `footprints.txt` (one per line - optional step)
 4. Open a command line and navigate to the directory that contains the script and the txt files using `cd targetdirectory` to change directory and `ls -l` to list current files and directories
-5. Type `bash guest-post-footprint-checker.sh` and wait until it's done
+5. Type `bash guest-post-footprint-checker.sh`, hit enter and wait until it's done
 6. Open `output.csv` with Excel to view the results
 
 ### Linux
