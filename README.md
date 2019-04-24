@@ -12,12 +12,12 @@ Google started to go after links from obvious guest posts. You need this script 
 Just Bash and cURL.
 
 ## How do I run this?
-1.) Download the repository
-2.) Add the URLs or domains you want to check to `urls.txt` (one per line)
-3.) Customize footprints you want to check for by editing `footprints.txt` (optional)
-4.) Open a command line and navigate to the directory that contains the script and the txt files using `cd targetdirectory` to change directory and `ls -l` to list current files and directories
-5.) Type `bash guest-post-footprint-checker.sh` and wait until it's done
-6.) Open `output.csv` with Excel to view the results
+1. Download the repository
+2. Add the URLs or domains you want to check to `urls.txt` (one per line)
+3. Customize footprints you want to check for by editing `footprints.txt` (optional)
+4. Open a command line and navigate to the directory that contains the script and the txt files using `cd targetdirectory` to change directory and `ls -l` to list current files and directories
+5. Type `bash guest-post-footprint-checker.sh` and wait until it's done
+6. Open `output.csv` with Excel to view the results
 
 ### Linux
 You already have everything you need. Just follow instructions above.
