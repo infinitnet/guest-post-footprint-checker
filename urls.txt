@@ -1,0 +1,2 @@
+www.example.com
+https://www.example.com/my-guest-post/
