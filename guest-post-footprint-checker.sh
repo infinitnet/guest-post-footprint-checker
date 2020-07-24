@@ -4,7 +4,7 @@
 # Author: infinitnet.io
 
 # Replace blank spaces with hex in urls.txt
-sed -i 's|\ |\%20|g' urls.txt
+sed -i '' 's|\ |\%20|g' urls.txt
 
 # Define vars and functions
 footprintsinput=footprints.txt
